@@ -9,6 +9,7 @@ import org.hibernate.validator.constraints.Length;
 import javax.persistence.*;
 import javax.validation.constraints.Max;
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Objects;
 
@@ -25,4 +26,9 @@ public class Autor extends Persona implements Serializable {
     @ManyToMany(mappedBy = "autores")
     private List<Libro> libros;
 
+    public Autor(String codigo, String nombre, LocalDate fechaNacimiento, GeneroPersona genero, Integer anioNacimiento, List<Libro> libros) {
+        super(codigo, nombre, fechaNacimiento, genero);
+        this.anioNacimiento = anioNacimiento;
+        this.libros = libros;
+    }
 }

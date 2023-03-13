@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c57f7df-590a-4d5a-ae02-f9d41779b872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/repositorios/CiudadRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/repositorios/UsuarioRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistencia/src/test/java/co/edu/uniquindio/proyecto/test/UsuarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistencia/src/test/resources/usuarios.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Autor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Ciudad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Ciudad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Prestamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +24,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="editable-svg" />
         <option value="xml" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fec44b22-e578-47ed-90ef-bd85aa7c8ab9" />
+        <option name="url" value="https://github.com/Alejo-Aguirre/prueba.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/temurin-11.0.18/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
@@ -68,12 +84,78 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "bf6c1f3191cfa5940ef94eb907d30c67",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UsuarioTest.listarUsuariosTest2">
+    <configuration name="UsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="persistencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.proyecto.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.uniquindio.proyecto.test" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.proyecto.test.UsuarioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioTest.listarUsuariosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="persistencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.proyecto.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.uniquindio.proyecto.test" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.proyecto.test.UsuarioTest" />
+      <option name="METHOD_NAME" value="listarUsuariosTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioTest.listarUsuariosTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="persistencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.proyecto.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.uniquindio.proyecto.test" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.proyecto.test.UsuarioTest" />
+      <option name="METHOD_NAME" value="listarUsuariosTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioTest.registrarUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="persistencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.uniquindio.proyecto.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.edu.uniquindio.proyecto.test" />
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.proyecto.test.UsuarioTest" />
+      <option name="METHOD_NAME" value="registrarUsuarioTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersistenciaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="persistencia" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uniquindio.proyecto.PersistenciaApplication" />
@@ -89,6 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsuarioTest.listarUsuariosTest2" />
+        <item itemvalue="JUnit.UsuarioTest" />
+        <item itemvalue="JUnit.UsuarioTest.listarUsuariosTest" />
+        <item itemvalue="JUnit.UsuarioTest.registrarUsuarioTest" />
         <item itemvalue="Spring Boot.PersistenciaApplication" />
       </list>
     </recent_temporary>
@@ -105,7 +191,7 @@
       <workItem from="1677618782606" duration="1624000" />
       <workItem from="1677620431520" duration="833000" />
       <workItem from="1677767258449" duration="3028000" />
-      <workItem from="1678650729981" duration="16225000" />
+      <workItem from="1678650729981" duration="26017000" />
     </task>
     <task id="LOCAL-00001" summary="segunda clase">
       <created>1678660979573</created>
@@ -114,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678660979574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Relaciones ,herencia y column">
+      <created>1678669047525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678669047525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +215,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="segunda clase" />
-    <option name="LAST_COMMIT_MESSAGE" value="segunda clase" />
+    <MESSAGE value="Relaciones ,herencia y column" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relaciones ,herencia y column" />
   </component>
 </project>
