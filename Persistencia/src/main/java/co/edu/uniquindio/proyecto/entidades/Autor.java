@@ -4,31 +4,25 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.validator.constraints.Length;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import javax.validation.constraints.Max;
 import java.io.Serializable;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
 @Getter
 @Setter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @NoArgsConstructor
-public class Autor implements Serializable {
+public class Autor extends Persona implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @EqualsAndHashCode.Include
-    private Integer codigo;
-    private String nombre;
+    @Max(9999)
+    @Column(nullable = false)
     private Integer anioNacimiento;
 
-    public Autor(Integer codigo, String nombre, Integer anioNacimiento) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.anioNacimiento = anioNacimiento;
-    }
+    @ManyToMany(mappedBy = "autores")
+    private List<Libro> libros;
+
 }

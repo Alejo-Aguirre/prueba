@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c57f7df-590a-4d5a-ae02-f9d41779b872" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Autor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Ciudad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/GeneroLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/GeneroPersona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Prestamo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistencia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/PersistenciaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/PersistenciaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Ciudad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Ciudad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades/Prestamo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +23,8 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="editable-svg" />
+        <option value="xml" />
       </list>
     </option>
   </component>
@@ -70,11 +63,12 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
     "jdk.selected.JAVA_MODULE": "temurin-11",
+    "last_opened_file_path": "C:/Users/lenovo/Desktop/new programas eclipse/ProyectoPrueba/Persistencia/src/main/java/co/edu/uniquindio/proyecto/entidades",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "bf6c1f3191cfa5940ef94eb907d30c67",
     "vue.rearranger.settings.migration": "true"
   }
@@ -111,11 +105,23 @@
       <workItem from="1677618782606" duration="1624000" />
       <workItem from="1677620431520" duration="833000" />
       <workItem from="1677767258449" duration="3028000" />
-      <workItem from="1678650729981" duration="8266000" />
+      <workItem from="1678650729981" duration="16225000" />
     </task>
+    <task id="LOCAL-00001" summary="segunda clase">
+      <created>1678660979573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678660979574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="segunda clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="segunda clase" />
   </component>
 </project>
